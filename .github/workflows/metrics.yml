@@ -23,7 +23,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          # Options
           user: pablo-tx
           template: classic
           base: header, activity, metadata, repositories, community
@@ -33,3 +32,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
+          
